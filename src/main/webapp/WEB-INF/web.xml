@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Donor_login</servlet-name>
+  	<display-name>Donor_login</display-name>
+  	<description></description>
+  	<servlet-class>donor_operations.Donor_login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Admin_login</servlet-name>
+  	<display-name>Admin_login</display-name>
+  	<description></description>
+  	<servlet-class>admin_access.Admin_login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Donor_view</servlet-name>
+  	<display-name>Donor_view</display-name>
+  	<description></description>
+  	<servlet-class>donor_operations.Donor_view</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Donor_delete</servlet-name>
+  	<display-name>Donor_delete</display-name>
+  	<description></description>
+  	<servlet-class>donor_operations.Donor_delete</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Donor_update</servlet-name>
+  	<display-name>Donor_update</display-name>
+  	<description></description>
+  	<servlet-class>donor_operations.Donor_update</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Hospital_view</servlet-name>
+  	<display-name>Hospital_view</display-name>
+  	<description></description>
+  	<servlet-class>hospital.Hospital_view</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Hospital_update</servlet-name>
+  	<display-name>Hospital_update</display-name>
+  	<description></description>
+  	<servlet-class>hospital.Hospital_update</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Hospital_insert</servlet-name>
+  	<display-name>Hospital_insert</display-name>
+  	<description></description>
+  	<servlet-class>hospital.Hospital_insert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Donor_login</servlet-name>
+  	<url-pattern>/donor_login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Admin_login</servlet-name>
+  	<url-pattern>/admin_login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Donor_view</servlet-name>
+  	<url-pattern>/donor_view</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Donor_delete</servlet-name>
+  	<url-pattern>/donor_delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Donor_update</servlet-name>
+  	<url-pattern>/donor_update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Hospital_view</servlet-name>
+  	<url-pattern>/hospital_view</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Hospital_update</servlet-name>
+  	<url-pattern>/hospital_update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Hospital_insert</servlet-name>
+  	<url-pattern>/hospital_insert</url-pattern>
+  </servlet-mapping>
+</web-app>
